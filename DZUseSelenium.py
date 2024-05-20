@@ -19,3 +19,8 @@ time.sleep(5)
 search_box = browser.find_element(By.ID, "searchInput")
 search_box.send_keys(user_input1)
 search_box.send_keys(Keys.RETURN)
+time.sleep(60)
+
+a=browser.find_element(By.CLASS_NAME, "skin-vektor*")
+print(a.text)
+time.sleep(5)

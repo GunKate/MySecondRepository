@@ -5,7 +5,7 @@ import random
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 400
 CELL_SIZE = 20
-FPS = 10
+FPS = 1 0
 
     # Цвета
 WHITE = (255, 255, 255)

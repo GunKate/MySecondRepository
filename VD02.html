@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Карточки пользователей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin: 20px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            padding: 20px;
+        }
+        .info h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        .info p {
+            color: #777;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="photo">
+            <img src="img/nezna.jpg" alt="Незнайка">
+        </div>
+        <div class="info">
+            <h1>Незнайка</h1>
+            <p>Литературный персонаж, герой трилогии Николая Носова и её продолжений. Член Клуба весёлых человечков 01/01/1954</p>
+            <p>neznaika@mail.ru</p>
+            <p>Цветочный город</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="photo">
+            <img src="img/pilul.jpg" alt="Доктор Пилюлькин">
+        </div>
+        <div class="info">
+            <h1>Доктор Пилюлькин</h1>
+            <p>врач широкого профиля в Цветочном Городе. Считает, что врачевание должно носить не только лечебный, но и поучительный характер. 01/01/1954</p>
+            <p>pipupkin@mail.ru</p>
+            <p>Цветочный город</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="photo">
+            <img src="img/znaika.jpg" alt="Знайка">
+        </div>
+        <div class="info">
+            <h1>Знайка</h1>
+            <p>Самый умный коротышка Цветочного города. Всегда организовывает важные путешествия и экспедиции. 01/01/1954</p>
+            <p>znaika@mail.ru</p>
+            <p>Цветочный город</p>
+        </div>
+    </div>
+</body>
+</html>

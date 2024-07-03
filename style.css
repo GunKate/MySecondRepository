@@ -1,0 +1,27 @@
+.photo {
+   height: 40%;
+   padding: 40px;
+   # padding - это внутренний отступ
+   # Для внешних отступов используется margin
+}
+.info1 {
+   padding: 40px;
+   height: 40%;
+}
+.email {
+   padding: 40px;
+   height: 40%;
+}
+.bdate {
+   padding: 40px;
+   height: 40%;
+}
+.citi {
+   padding: 40px;
+   height: 40%;
+}
+img {
+   position: relative;
+   left:17%;
+   border-radius: 20px;
+}
